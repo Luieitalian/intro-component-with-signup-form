@@ -58,28 +58,28 @@ function validateFirstName() {
     firstNameMsg.textContent = 'First Name cannot contain special characters';
     firstNameMsg.style.display = 'block';
 
-    firstName.style.backgroundImage = "url('/images/icon-error.svg')";
+    firstName.style.backgroundImage = "url('../images/icon-error.svg')";
     firstName.classList.add('red-border');
   }
   else if (firstName.value.match(/[0-9]/)) {
     firstNameMsg.textContent = 'First Name cannot contain numbers';
     firstNameMsg.style.display = 'block';
 
-    firstName.style.backgroundImage = "url('/images/icon-error.svg')";
+    firstName.style.backgroundImage = "url('../images/icon-error.svg')";
     firstName.classList.add('red-border');
   }
   else if (firstName.value.length === 0) {
     firstNameMsg.textContent = 'First Name cannot be empty';
     firstNameMsg.style.display = 'block';
 
-    firstName.style.backgroundImage = "url('/images/icon-error.svg')";
+    firstName.style.backgroundImage = "url('../images/icon-error.svg')";
     firstName.classList.add('red-border');
   }
   else if (firstName.value.length > 32) {
     firstNameMsg.textContent = 'Names longer than 32 characters are not valid';
     firstNameMsg.style.display = 'block';
 
-    firstName.style.backgroundImage = "url('/images/icon-error.svg')";
+    firstName.style.backgroundImage = "url('../images/icon-error.svg')";
     firstName.classList.add('red-border');
   }
 }
@@ -89,28 +89,28 @@ function validateLastName() {
     lastNameMsg.textContent = 'Last Name cannot contain special characters';
     lastNameMsg.style.display = 'block';
 
-    lastName.style.backgroundImage = "url('/images/icon-error.svg')";
+    lastName.style.backgroundImage = "url('../images/icon-error.svg')";
     lastName.classList.add('red-border');
   }
   else if (lastName.value.match(/[0-9]/)) {
     lastNameMsg.textContent = 'Last Name cannot contain numbers';
     lastNameMsg.style.display = 'block';
 
-    lastName.style.backgroundImage = "url('/images/icon-error.svg')";
+    lastName.style.backgroundImage = "url('../images/icon-error.svg')";
     lastName.classList.add('red-border');
   }
   else if (lastName.value.length === 0) {
     lastNameMsg.textContent = 'Last Name cannot be empty';
     lastNameMsg.style.display = 'block';
 
-    lastName.style.backgroundImage = "url('/images/icon-error.svg')";
+    lastName.style.backgroundImage = "url('../images/icon-error.svg')";
     lastName.classList.add('red-border');
   }
   else if (lastName.value.length > 32) {
     lastNameMsg.textContent = 'Names longer than 32 characters are not valid';
     lastNameMsg.style.display = 'block';
 
-    lastName.style.backgroundImage = "url('/images/icon-error.svg')";
+    lastName.style.backgroundImage = "url('../images/icon-error.svg')";
     lastName.classList.add('red-border');
   }
 
@@ -122,14 +122,14 @@ function validateEmail() {
     emailMsg.textContent = 'E-mail cannot be empty';
     emailMsg.style.display = 'block';
 
-    email.style.backgroundImage = "url('/images/icon-error.svg')";
+    email.style.backgroundImage = "url('../images/icon-error.svg')";
     email.classList.add('red-border');
   }
   else if (!email.value.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)) {
     emailMsg.textContent = 'Looks like this is not an email';
     emailMsg.style.display = 'block';
 
-    email.style.backgroundImage = "url('/images/icon-error.svg')";
+    email.style.backgroundImage = "url('../images/icon-error.svg')";
     email.classList.add('red-border');
   }
 }
@@ -140,14 +140,14 @@ function validatePassword() {
     passwordMsg.textContent = 'Password cannot be empty';
     passwordMsg.style.display = 'block';
 
-    password.style.backgroundImage = "url('/images/icon-error.svg')";
+    password.style.backgroundImage = "url('../images/icon-error.svg')";
     password.classList.add('red-border');
   }
   else if (password.value.length < 8) {
     passwordMsg.textContent = 'Password must contain 8 or more characters';
     passwordMsg.style.display = 'block';
 
-    password.style.backgroundImage = "url('/images/icon-error.svg')";
+    password.style.backgroundImage = "url('../images/icon-error.svg')";
     password.classList.add('red-border');
   }
 
