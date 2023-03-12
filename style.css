@@ -6,7 +6,7 @@
 body {
     font-size: 16px;
     background-color: rgba(255, 0, 0, 0.5);
-    background-image: url('/images/bg-intro-mobile.png');
+    background-image: url('../images/bg-intro-mobile.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +88,7 @@ form {
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     font-size: 0.8rem;
-    background-image: url('/images/icon-error.svg');
+    background-image: url('../images/icon-error.svg');
     background-repeat: no-repeat;
     background-position: 95% 50%;
 }
@@ -175,7 +175,7 @@ footer a {
 
 @media (min-width:1200px){
     body{
-        background-image: url('/images/bg-intro-desktop.png');
+        background-image: url('../images/bg-intro-desktop.png');
     }
     main{
         flex-direction: row;
